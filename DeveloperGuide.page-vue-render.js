@@ -227,64 +227,64 @@ with(this){return _c('p',[_c('em',[_v("{More to be added}")])])}
 with(this){return _c('h3',{attrs:{"id":"use-cases"}},[_v("Use cases"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-cases","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("(For all use cases below, the "),_c('strong',[_v("System")]),_v(" is the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("AddressBook")]),_v(" and the "),_c('strong',[_v("Actor")]),_v(" is the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("user")]),_v(", unless specified otherwise)")])}
+with(this){return _c('p',[_v("(For all use cases below, the "),_c('strong',[_v("System")]),_v(" is the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("RecruitTrack")]),_v(" and the "),_c('strong',[_v("Actor")]),_v(" is the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("user")]),_v(", unless specified otherwise)")])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case: Delete a person")])])}
+with(this){return _c('p',[_c('strong',[_v("Use case: UC01 - Delete a person")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("MSS")])])}
+with(this){return _c('p',[_c('strong',[_v("MSS:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to list persons")])]),_v(" "),_c('li',[_c('p',[_v("AddressBook shows a list of persons")])]),_v(" "),_c('li',[_c('p',[_v("User requests to delete a specific person in the list")])]),_v(" "),_c('li',[_c('p',[_v("AddressBook deletes the person")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to list persons")])]),_v(" "),_c('li',[_c('p',[_v("RecruitTrack shows a list of persons")])]),_v(" "),_c('li',[_c('p',[_v("User requests to delete a specific person in the list")])]),_v(" "),_c('li',[_c('p',[_v("RecruitTrack deletes the person")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
+with(this){return _c('p',[_c('strong',[_v("Extensions:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The list is empty.")]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("3a. The given index is invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3a1. AddressBook shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The list is empty.")]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("3a. The given index is invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3a1. RecruitTrack shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes from step 2.")])])])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case: Add a person")])])}
+with(this){return _c('p',[_c('strong',[_v("Use case: UC02 - Add a person")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("MSS")])])}
+with(this){return _c('p',[_c('strong',[_v("MSS:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to add a person by providing the\n"),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("NAME")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("PHONE_NUMBER")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("EMAIL")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("ADDRESS")]),_v(" and optionally any number of "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("TAG")])])]),_v(" "),_c('li',[_c('p',[_v("AddressBook adds the person with the detail into the list")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to add a person by providing the details")])]),_v(" "),_c('li',[_c('p',[_v("RecruitTrack adds the person with the details into the list")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
+with(this){return _c('p',[_c('strong',[_v("Extensions:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. The details don't follow the correct format.")]),_v(" "),_c('ul',[_c('li',[_v("1a1. AddressBook shows an error message.")])])]),_v(" "),_c('li',[_c('p',[_v("1b. Lacks details like "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("NAME")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("PHONE_NUMBER")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("EMAIL")]),_v(" or "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("ADDRESS")]),_v(".")]),_v(" "),_c('ul',[_c('li',[_v("1b1. AddressBook shows an error message.")])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. The details don't follow the correct format.")]),_v(" "),_c('ul',[_c('li',[_v("1a1. RecruitTrack shows an error message.")])])]),_v(" "),_c('li',[_c('p',[_v("1b. Lacks mandatory details.")]),_v(" "),_c('ul',[_c('li',[_v("1b1. RecruitTrack shows an error message.")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case: Edit a person")])])}
+with(this){return _c('p',[_c('strong',[_v("Use case: UC03 - Edit a person")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("MSS")])])}
+with(this){return _c('p',[_c('strong',[_v("MSS:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to list persons")])]),_v(" "),_c('li',[_c('p',[_v("AddressBook shows a list of persons")])]),_v(" "),_c('li',[_c('p',[_v("User requests to edit a specific person in the list using the specified "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("INDEX")]),_v("\nand provide the new detail for that person")])]),_v(" "),_c('li',[_c('p',[_v("AddressBook edit the person's detail")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to list persons")])]),_v(" "),_c('li',[_c('p',[_v("RecruitTrack shows a list of persons")])]),_v(" "),_c('li',[_c('p',[_v("User requests to edit a specific person in the list and provides the new details for that person")])]),_v(" "),_c('li',[_c('p',[_v("RecruitTrack edit the person's details")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
+with(this){return _c('p',[_c('strong',[_v("Extensions:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The list is empty.")]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("3a. The given index is invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3a1. AddressBook shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])]),_v(" "),_c('li',[_c('p',[_v("3b. The new details don't follow the correct format.")]),_v(" "),_c('ul',[_c('li',[_v("3b1. AddressBook shows an error message.")])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The list is empty.")]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("3a. The given index is invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3a1. RecruitTrack shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes from step 2.")])])])]),_v(" "),_c('li',[_c('p',[_v("3b. The new details don't follow the correct format.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3b1. RecruitTrack shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes from step 2.")])])])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case: Find a person")])])}
+with(this){return _c('p',[_c('strong',[_v("Use case: UC04 - Find a person")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("MSS")])])}
+with(this){return _c('p',[_c('strong',[_v("MSS:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to find a person by "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("NAME")]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("AddressBook find persons whose name matches at least one of the keyword (case-insensitive).")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to find a person by providing the person's details.")])]),_v(" "),_c('li',[_c('p',[_v("RecruitTrack find persons with the given details.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
+with(this){return _c('p',[_c('strong',[_v("Extensions:")])])}
 },function anonymous(
 ) {
 with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The list is empty.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
@@ -323,6 +323,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('em',[_v("{explain how to simulate a missing/corrupted file, and the expected behavior}")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Thu, 13 Mar 2025, 14:39:56 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Thu, 13 Mar 2025, 16:02:25 GMT+8]")])])])}
 }];
   
