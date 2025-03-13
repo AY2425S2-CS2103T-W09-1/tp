@@ -1,8 +1,7 @@
 package seedu.address.model;
 
-import static java.util.Objects.requireNonNull;
-
 import java.util.List;
+import static java.util.Objects.requireNonNull;
 
 import javafx.collections.ObservableList;
 import seedu.address.commons.util.ToStringBuilder;
@@ -95,7 +94,11 @@ public class AddressBook implements ReadOnlyAddressBook {
         persons.remove(key);
     }
 
-    // Added for applicant sorting
+    /**
+     * Sorts the list of persons based on the specified sorting criteria.
+     *
+     * @param prefix The prefix representing the sorting criteria.
+     */
     public void sortPersons(Prefix prefix) {
         requireNonNull(prefix);
 

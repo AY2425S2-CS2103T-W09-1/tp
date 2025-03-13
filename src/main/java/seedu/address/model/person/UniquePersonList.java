@@ -1,14 +1,13 @@
 package seedu.address.model.person;
 
-import static java.util.Objects.requireNonNull;
-import static seedu.address.commons.util.CollectionUtil.requireAllNonNull;
-
 import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
+import static java.util.Objects.requireNonNull;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import static seedu.address.commons.util.CollectionUtil.requireAllNonNull;
 import seedu.address.logic.parser.Prefix;
 import seedu.address.model.person.exceptions.DuplicatePersonException;
 import seedu.address.model.person.exceptions.PersonNotFoundException;
@@ -98,7 +97,16 @@ public class UniquePersonList implements Iterable<Person> {
 
         internalList.setAll(persons);
     }
-
+    
+    /**
+     * Sorts the list of persons based on the given prefix. The prefix determines the field
+     * by which the list is sorted (e.g., name, email, time, job position, or status).
+     * 
+     * The sorting is performed with case-sensitive lexicographic order for String fields
+     * and by the earliest added time for time fields.
+     * 
+     * @param prefix The prefix that determines the sorting criterion.
+     */
     public void sortPersons(Prefix prefix) {
         // sort String based on lexicographic order with case sensitivity (A, a, B, b, ..., Z, z)
         Comparator<String> caseSensitiveLexicographicComparator = (s1, s2) -> {
