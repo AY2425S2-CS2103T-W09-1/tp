@@ -242,7 +242,7 @@ with(this){return _c('p',[_c('strong',[_v("Use case: UC01 - Add an applicant")])
 with(this){return _c('p',[_c('strong',[_v("MSS:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to add an applicant by providing the details")])]),_v(" "),_c('li',[_c('p',[_v("RecruitTrack adds the applicant with the details into the list")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to add an applicant by providing the details.")])]),_v(" "),_c('li',[_c('p',[_v("RecruitTrack adds the applicant with the details into the list.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions:")])])}
@@ -257,7 +257,7 @@ with(this){return _c('p',[_c('strong',[_v("Use case: UC02 - Delete an applicant"
 with(this){return _c('p',[_c('strong',[_v("MSS:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to list applicants")])]),_v(" "),_c('li',[_c('p',[_v("RecruitTrack shows a list of applicants")])]),_v(" "),_c('li',[_c('p',[_v("User requests to delete a specific applicant")])]),_v(" "),_c('li',[_c('p',[_v("RecruitTrack deletes the applicant")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to list applicants.")])]),_v(" "),_c('li',[_c('p',[_v("RecruitTrack shows a list of applicants.")])]),_v(" "),_c('li',[_c('p',[_v("User requests to delete a specific applicant.")])]),_v(" "),_c('li',[_c('p',[_v("RecruitTrack deletes the applicant.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions:")])])}
@@ -272,7 +272,7 @@ with(this){return _c('p',[_c('strong',[_v("Use case: UC03 - Edit an applicant")]
 with(this){return _c('p',[_c('strong',[_v("MSS:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to list applicants")])]),_v(" "),_c('li',[_c('p',[_v("RecruitTrack shows a list of applicants")])]),_v(" "),_c('li',[_c('p',[_v("User requests to edit a specific applicant in the list and provides the new details for that applicant")])]),_v(" "),_c('li',[_c('p',[_v("RecruitTrack edits the applicant's details")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to list applicants.")])]),_v(" "),_c('li',[_c('p',[_v("RecruitTrack shows a list of applicants.")])]),_v(" "),_c('li',[_c('p',[_v("User requests to edit a specific applicant in the list and provides the new details for that applicant.")])]),_v(" "),_c('li',[_c('p',[_v("RecruitTrack edits the applicant's details.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions:")])])}
@@ -293,13 +293,13 @@ with(this){return _c('p',[_c('strong',[_v("Use case: UC05 - Search an applicant"
 with(this){return _c('p',[_c('strong',[_v("MSS:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to search an applicant by providing the applicant's details.")])]),_v(" "),_c('li',[_c('p',[_v("RecruitTrack finds applicants with the given details.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to search applicant(s) by providing their details.")])]),_v(" "),_c('li',[_c('p',[_v("RecruitTrack finds applicant(s) with the given details.")])]),_v(" "),_c('li',[_c('p',[_v("RecruitTrack returns a list of applicants that match the details.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The list is empty.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The list is empty.")]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("2b. No applicant with the given details is found.")]),_v(" "),_c('ul',[_c('li',[_v("2b1. RecruitTrack indicates that no applicant is found.")])]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC06 - Rate an applicant")])])}
@@ -308,7 +308,7 @@ with(this){return _c('p',[_c('strong',[_v("Use case: UC06 - Rate an applicant")]
 with(this){return _c('p',[_c('strong',[_v("MSS:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to list applicants")])]),_v(" "),_c('li',[_c('p',[_v("RecruitTrack shows a list of applicants")])]),_v(" "),_c('li',[_c('p',[_v("User requests to rate an applicant by providing the applicant's details and rating number")])]),_v(" "),_c('li',[_c('p',[_v("RecruitTrack rates applicants with the given details")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to list applicants.")])]),_v(" "),_c('li',[_c('p',[_v("RecruitTrack shows a list of applicants.")])]),_v(" "),_c('li',[_c('p',[_v("User requests to rate an applicant by providing the applicant's details and rating number.")])]),_v(" "),_c('li',[_c('p',[_v("RecruitTrack rates applicants with the given details.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions:")])])}
@@ -323,7 +323,7 @@ with(this){return _c('p',[_c('strong',[_v("Use case: UC07 - Summarize the applic
 with(this){return _c('p',[_c('strong',[_v("MSS:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User requests to summarize the applicant records without specifying any filter")]),_v(" "),_c('li',[_v("RecruitTrack output the summary of all the applicants' details")])])}
+with(this){return _c('ol',[_c('li',[_v("User requests to summarize the applicant records without specifying any filter.")]),_v(" "),_c('li',[_v("RecruitTrack output the summary of all the applicants' details.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC08 - Summarize the applicant records with filter")])])}
@@ -332,7 +332,7 @@ with(this){return _c('p',[_c('strong',[_v("Use case: UC08 - Summarize the applic
 with(this){return _c('p',[_c('strong',[_v("MSS:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User requests to summarize the applicant records and specify the filters")]),_v(" "),_c('li',[_v("RecruitTrack output the summary of all applicants that meet the specified filters")])])}
+with(this){return _c('ol',[_c('li',[_v("User requests to summarize the applicant records and specify the filters.")]),_v(" "),_c('li',[_v("RecruitTrack output the summary of all applicants that meet the specified filters.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC09 - Export the applicants data")])])}
@@ -341,7 +341,7 @@ with(this){return _c('p',[_c('strong',[_v("Use case: UC09 - Export the applicant
 with(this){return _c('p',[_c('strong',[_v("MSS:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User requests to export the applicants data")]),_v(" "),_c('li',[_v("RecruitTrack requests the user to specify the location to save the exported data")]),_v(" "),_c('li',[_v("RecruitTrack save the exported data in the specify location")])])}
+with(this){return _c('ol',[_c('li',[_v("User requests to export the applicants data.")]),_v(" "),_c('li',[_v("RecruitTrack requests the user to specify the location to save the exported data.")]),_v(" "),_c('li',[_v("RecruitTrack save the exported data in the specify location.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions:")])])}
@@ -416,6 +416,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('em',[_v("{explain how to simulate a missing/corrupted file, and the expected behavior}")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Tue, 8 Apr 2025, 0:02:34 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Tue, 8 Apr 2025, 0:45:47 GMT+8]")])])])}
 }];
   
