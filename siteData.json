@@ -50,9 +50,6 @@
         "model-component": "Model component",
         "storage-component": "Storage component",
         "common-classes": "Common classes",
-        "implementation": "Implementation",
-        "proposed-undo-redo-feature": "[Proposed] Undo/redo feature",
-        "proposed-data-archiving": "[Proposed] Data archiving",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
         "appendix-requirements": "Appendix: Requirements",
         "product-scope": "Product scope",
@@ -66,7 +63,8 @@
         "exporting-applicant-data": "Exporting Applicant Data",
         "searching-applicants": "Searching Applicants",
         "sorting-applicants": "Sorting Applicants",
-        "saving-data": "Saving data"
+        "saving-and-editing-data": "Saving and Editing data",
+        "appendix-planned-enhancements": "Appendix: Planned Enhancements"
       },
       "headingKeywords": {}
     },
